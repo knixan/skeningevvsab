@@ -17,13 +17,13 @@ const About: React.FC = () => (
         <br />
         Vi har certifierade VVS-tekniker med lång erfarenhet och hög kompetens
         för att säkerställa professionellt utförda arbeten. Vi strävar efter att
-        leverera enastående kundservice genom att vara lyhörda för kundernas
-        behov, ge tydlig information och hålla hög kvalitet på våra tjänster.
+        leverera bra kundservice genom att vara lyhörda för kundernas behov, ge
+        tydlig information och hålla hög kvalitet på våra tjänster.
         <br />
-        Våra certifierade installatörer har den nödvändiga expertisen för att
-        utföra VVS-arbeten på ett professionellt och noggrant sätt. Vi använder
-        enbart branschgodkända material av hög kvalitet för att säkerställa
-        långvariga och pålitliga VVS-lösningar.
+        Vi är certifierade installatörer och har den nödvändiga expertisen för
+        att utföra VVS-arbeten på ett professionellt och noggrant sätt. Vi
+        använder enbart branschgodkända material av hög kvalitet för att
+        säkerställa långvariga och pålitliga VVS-lösningar.
       </p>
     </div>
 
