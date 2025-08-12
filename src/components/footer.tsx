@@ -1,7 +1,7 @@
 import React from "react";
 
 const Footer: React.FC = () => (
-  <footer className="bg-[#2b2a29] rounded-lg shadow-sm m-4">
+  <footer className="bg-blue-950 rounded-lg shadow-sm m-4">
     <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
       <div className="sm:flex sm:items-center sm:justify-between">
         <a href="#" className="flex items-center mb-4 sm:mb-0 space-x-3">
@@ -21,24 +21,18 @@ const Footer: React.FC = () => (
             E-post:{" "}
             <a
               href="mailto:skeningevvsab@msn.se"
-              className="text-blue-400 hover:underline"
+              className="text-white hover:underline"
             >
               skeningevvsab@msn.se
             </a>
             <br />
             Bosse Engelke:{" "}
-            <a
-              href="tel:+46708417290"
-              className="text-blue-400 hover:underline"
-            >
+            <a href="tel:+46708417290" className="text-white hover:underline">
               0708-417290
             </a>
             <br />
             Kristian Engelke:{" "}
-            <a
-              href="tel:+46735358075"
-              className="text-blue-400 hover:underline"
-            >
+            <a href="tel:+46735358075" className="text-white hover:underline">
               0735-358075
             </a>
           </span>
