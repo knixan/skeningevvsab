@@ -61,7 +61,7 @@ const Hero: React.FC = () => {
             <div className="flex-grow flex items-center justify-center">
               <a
                 href="#contact"
-                className="inline-flex items-center justify-center px-5 py-3 text-base font-medium bg-red-700 text-white rounded-lg"
+                className="inline-flex items-center hover:scale-105 justify-center px-5 py-3 text-base font-medium bg-red-700 text-white rounded-lg"
               >
                 Kontakta oss
                 <svg
