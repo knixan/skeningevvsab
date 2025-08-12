@@ -31,7 +31,7 @@ const Footer: React.FC = () => (
               href="tel:+46708417290"
               className="text-blue-400 hover:underline"
             >
-              070-8417290
+              0708-417290
             </a>
             <br />
             Kristian Engelke:{" "}
@@ -39,7 +39,7 @@ const Footer: React.FC = () => (
               href="tel:+46735358075"
               className="text-blue-400 hover:underline"
             >
-              073-5358075
+              0735-358075
             </a>
           </span>
         </div>

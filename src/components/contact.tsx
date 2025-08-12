@@ -7,7 +7,7 @@ const PersonCard: React.FC<{
   phone?: string;
   mail?: string;
 }> = ({ img, name, title, phone, mail }) => (
-  <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-center">
+  <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-center hover:scale-105">
     <img
       className="w-24 h-24 rounded-full object-cover mb-4 border-2 border-gray-300"
       src={img}
@@ -37,19 +37,19 @@ const PersonCard: React.FC<{
 );
 
 const Contact: React.FC = () => (
-  <section id="contact" className="flex flex-wrap justify-center gap-6 p-6">
+  <section id="contact" className="flex flex-wrap justify-center  gap-6 p-6">
     <PersonCard
       img="/images/kristian.png"
       name="Kristian Engelke"
       title="VVS-montör"
-      phone="+46735358075"
+      phone="0735-358075"
       mail="skeningevvsab@msn.se"
     />
     <PersonCard
       img="/images/bosse.png"
       name="Bosse Engelke"
       title="Ägare/VVS-montör"
-      phone="+46708417290"
+      phone="0708-417290"
       mail="skeningevvsab@msn.se"
     />
     <PersonCard
