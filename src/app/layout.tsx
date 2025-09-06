@@ -1,6 +1,6 @@
 import React from "react";
 import "./globals.css";
-import { ThemeProvider } from "../components/theme-provider";
+import { ThemeProvider } from "@/components/theme-provider";
 
 export const metadata = {
   title: "Skeninge VVS AB - Rörmokare, Badrumsrenovering & Värmesystem i Skänninge, Mjölby & Östergötland",
