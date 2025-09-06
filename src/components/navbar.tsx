@@ -73,18 +73,18 @@ const Navbar: React.FC = () => {
                 </Button>
               </SheetTrigger>
               <SheetContent side="right" className="flex flex-col">
-                <SheetTitle className="sr-only">Navigationsmeny</SheetTitle>
+                <SheetTitle className=" sr-only">Navigationsmeny</SheetTitle>
                 <SheetDescription className="sr-only">Huvudnavigationsmeny med länkar till olika sektioner på sidan.</SheetDescription>
                 <div className="flex justify-end items-center mb-4">
                   {/* Temaknappen här endast för att visa att den inte ska vara där längre */}
                 </div>
-                <ul className="space-y-4">
+                <ul className=" space-y-4">
                   {navLinks.map((link) => (
                     <li key={link.href}>
                       <Link
                         href={link.href}
                         onClick={() => setOpen(false)}
-                        className="text-foreground text-lg transition-colors hover:text-primary"
+                        className="p-4 text-sky-700 text-lg transition-colors hover:text-primary"
                       >
                         {link.label}
                       </Link>
